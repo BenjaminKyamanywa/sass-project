@@ -1,2 +1,3 @@
-# Sass-project
-A simple project using sass.
+# Simple Sass Portfolio Project
+A simple portfolio website built using sass. 
+
