@@ -18,7 +18,7 @@
         <nav class="nav">
             <ul class="menu-nav">
                 <li class="menu-nav__item">
-                    <a href="index.html" class="menu-nav__link active">Home</a>
+                    <a href="index.html" id="home" class="menu-nav__link active">Home</a>
                 </li>
                 <li class="menu-nav__item">
                     <a href="about.html" class="menu-nav__link">About Me</a>
@@ -57,7 +57,14 @@
                 </a>
             </div>
 
-            <footer>&copy; Copyright 2020</footer>
+            <footer>
+                &copy; &nbsp;
+                <script type="text/javascript">
+                new Date().getFullYear()>document.write(new Date().getFullYear());
+                </script>&nbsp;
+                <a href="#home">Sam Sullivan</a>
+                </a>
+            </footer>
         </section>
     </main>
     <script src="https://kit.fontawesome.com/6d2ea823d0.js"></script>
